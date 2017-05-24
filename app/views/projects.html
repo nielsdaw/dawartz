@@ -1,0 +1,29 @@
+<div class="row section-shadow project-row">
+
+	<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+		<h3 class="text-center m-b-1">Projects</h3>
+		<div class="col-md-12 col-xs-12 col-sm-12 text-center m-b-2">
+			<ul class="nav nav-tabs project-menu">
+			  <li ng-repeat="item in project.menuItems">
+			  	<a class="btn" ng-class="{active : project.activeMenu === item}" ng-click="project.changePreview(item); project.setActive(item)">{{item}}</a>
+			  </li>
+		  </ul>
+		</div>
+
+		<div class="col-md-4 col-xs-12 col-sm-6 project-xs fade-project" ng-class="{'col-md-offset-2':$index == 3 || ($first && project.curentProjects.length < 3)}" ng-repeat="item in project.curentProjects">
+			<div class="project-inner text-center">
+				<img class="project-img" ng-src="{{item.img}}">
+				<div class="project-content text-left">
+					<h4>{{item.title}}</h4>
+					<div class="project-description">
+						{{item.description}}
+					</div>
+					<div class="project-links">
+						<a ng-repeat="link in item.links" target="_blank" href="{{link.a}}"><i class="fa {{link.fa}}" aria-hidden="true"></i> {{link.text}}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
