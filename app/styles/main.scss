@@ -286,6 +286,11 @@ blockquote {
 // Mobile and laptob view
 @media (max-width: 767px) {
 
+  .center-flex {
+    margin-top: 25%;
+
+  }
+
   #work-title {
     text-align: left;
   }
