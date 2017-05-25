@@ -286,9 +286,12 @@ blockquote {
 // Mobile and laptob view
 @media (max-width: 767px) {
 
-  .center-flex {
-    margin-top: 25%;
+  .window-height {
+    height: 100vh;
+  }
 
+  .center-flex {
+    margin-top: 0;
   }
 
   #work-title {
