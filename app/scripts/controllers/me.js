@@ -49,6 +49,7 @@ angular.module('dawartzApp')
     	'php',
     	'Django',
         'SQL',
+        'Git',
         'Bootstrap',
         'NPM',
         'Bower',
@@ -57,6 +58,7 @@ angular.module('dawartzApp')
     ];
 
     this.skillsOther = [
+        'unix',
     	'.net (C#)',
     	'Android Studio (Java)',
     	'xcode (objective C)',
