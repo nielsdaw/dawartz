@@ -1,4 +1,6 @@
 /node_modules
 /.tmp
+/dist
+/images
 /.sass-cache
 /bower_components
