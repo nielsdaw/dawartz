@@ -1,6 +1,9 @@
 # dawartz
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+Personal website, made with angular using the yeoman angular generator
+
+## Yeoman generator
+The project is made with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.16.0.
 
 ## Build & development
