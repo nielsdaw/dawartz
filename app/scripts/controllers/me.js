@@ -9,9 +9,6 @@
  */
 angular.module('dawartzApp')
   .controller('MeCtrl', function () {
-    
-    // hack to show talk bubble
-    this.showBubble = false;
 
     this.socialMedias = [
         {
@@ -68,7 +65,5 @@ angular.module('dawartzApp')
     	'Heroku',
         'LaTeX',
     ];
-
-
 
   });

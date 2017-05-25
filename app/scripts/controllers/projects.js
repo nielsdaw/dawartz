@@ -27,18 +27,18 @@ angular.module('dawartzApp')
   					 'This is developed by following the course \'Object oriented JavaScript\''+
   					 ', and the engine.js file (the picture manipulation) is pre-made by the udacity team. '+
   					 'The logic of the game everything else is developed by me.',
-	 	links: [
-	 		{
-	 			a: 'https://www.dawartz.dk/bug-runner/',
-	 			text: 'Try to beat the highscore',
-	 			fa: 'fa-trophy'
-	 		},
-	 		{
-	 			a: 'https://github.com/nielsdaw/Bug-Runner',
-	 			text: 'See code on Github',
-	 			fa: 'fa-github github-grey'
-	 		}
-	 	]
+  	 	links: [
+  	 		{
+  	 			a: 'https://www.dawartz.dk/bug-runner/',
+  	 			text: 'Try to beat the highscore',
+  	 			fa: 'fa-trophy'
+  	 		},
+  	 		{
+  	 			a: 'https://github.com/nielsdaw/Bug-Runner',
+  	 			text: 'See code on Github',
+  	 			fa: 'fa-github github-grey'
+  	 		}
+  	 	]
   	},
   	{
   		img: 'images/web.png',
@@ -46,14 +46,28 @@ angular.module('dawartzApp')
   		description: 'I developed the website for my mother\'s company.'+
   					 ' The website is staitc and developed with HTML5, CSS3,'+
   					 ' vanillaJS, some jQuery bootstrap and PHP.',
-	 	links: [
-	 		{
-	 			a: 'http://www.anettedawartz.dk',
-	 			text: 'Check out the website (it\'s in Danish)',
-	 			fa: 'fa-file-code-o'
-	 		},
-	 	]
+  	 	links: [
+  	 		{
+  	 			a: 'http://www.anettedawartz.dk',
+  	 			text: 'Check out the website (it\'s in Danish)',
+  	 			fa: 'fa-file-code-o'
+  	 		},
+  	 	]
   	},
+    {
+      img: 'images/dawartz.png',
+      title: 'dawartz.dk',
+      description: 'dawartz.dk is made with HTML5, Sass and Angular,'+
+                   'using the Yeoman Generator.'+
+                   'All the code is uploaded to github and deployed on Heroku',
+      links: [
+        {
+          a: 'https://github.com/nielsdaw/dawartz',
+          text: 'See code on Github',
+          fa: 'fa-github github-grey'
+        },
+      ]
+    },
   ];
 
   // Personal Projects
@@ -65,19 +79,19 @@ angular.module('dawartzApp')
   					 'I developed a web application (in Python/Django)'+
   					 'that allows the user to get a quick overview of his/her'+
   					 'information online, based on data from social media API’s'+
-  					 '(Facebook, Instagram, LinkedIn & Spotify).',
-	 	links: [
-	 		{
-	 			a: 'https://the-social-me.herokuapp.com',
-	 			text: 'The Social Me on Heroku',
-	 			fa: 'fa-cloud'
-	 		},
-	 		{
-	 			a: 'http://www.github.com/nielsdaw/Social-Me',
-	 			text: 'See code on Github',
-	 			fa: 'fa-github github-grey'
-	 		}
-	 	]
+  					 '(Facebook, Instagram, LinkedIn & Spotify). The app is deployed on Heroku.',
+  	 	links: [
+  	 		{
+  	 			a: 'https://the-social-me.herokuapp.com',
+  	 			text: 'The Social Me on Heroku',
+  	 			fa: 'fa-cloud'
+  	 		},
+  	 		{
+  	 			a: 'http://www.github.com/nielsdaw/Social-Me',
+  	 			text: 'See code on Github',
+  	 			fa: 'fa-github github-grey'
+  	 		}
+  	 	]
   	},
   	{
   		img: 'images/blog.png',
@@ -85,13 +99,13 @@ angular.module('dawartzApp')
   		description: 'My first project was to develop a web application using '+
   					 'HTML, CSS, native JavaScript, PHP and MySql. The application is a '+
   					 'simple blog where you can create a user, write blog post and make comments.',
-	 	links: [
-	 		{
-	 			a: 'https://www.dawartz.dk/blog/',
-	 			text: 'Try the blog',
-	 			fa: 'fa-pencil-square-o'
-	 		}
-	 	]
+  	 	links: [
+  	 		{
+  	 			a: 'https://www.dawartz.dk/blog/',
+  	 			text: 'Try the blog',
+  	 			fa: 'fa-pencil-square-o'
+  	 		}
+  	 	]
   	},
   	{
   		img: 'images/project.png',
@@ -100,18 +114,18 @@ angular.module('dawartzApp')
   					 'HTML, CSS, native JavaScript, PHP and MySql. The application is '+
   					 'makes it possible for students and teachers, to organize projects '+
   					 'and which students are in which teams.',
-	 	links: [
-	 		{
-	 			a: 'https://www.dawartz.dk/project1/',
-	 			text: 'Try the application',
-	 			fa: 'fa-archive'
-	 		},
-	 		{
-	 			a: 'https://github.com/ZuzanaLietavcova/Training-center-project',
-	 			text: 'See code on Github',
-	 			fa: 'fa-github github-grey'
-	 		}
-	 	]
+  	 	links: [
+  	 		{
+  	 			a: 'https://www.dawartz.dk/project1/',
+  	 			text: 'Try the application',
+  	 			fa: 'fa-archive'
+  	 		},
+  	 		{
+  	 			a: 'https://github.com/ZuzanaLietavcova/Training-center-project',
+  	 			text: 'See code on Github',
+  	 			fa: 'fa-github github-grey'
+  	 		}
+  	 	]
   	},
   ];
 
