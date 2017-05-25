@@ -43,6 +43,7 @@ angular.module('dawartzApp')
     this.skills = [
     	'HTML5',
     	'CSS3',
+        'Sass',
     	'JavaScript',
     	'jQuery',
     	'Angular',
@@ -52,6 +53,9 @@ angular.module('dawartzApp')
     	'Django',
         'SQL',
         'Bootstrap',
+        'NPM',
+        'Bower',
+        'Gulp/Grunt',
         'User Centred Design'
     ];
 
