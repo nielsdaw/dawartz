@@ -9,8 +9,8 @@
 			</div>
 			<div class="col-md-6 col-md-offset-3 text-center">
 				<p>
-					I have a passion for web development, and I love creative, beautiful, user- and mobile friendly web applications.
-					I'm a recent graduate in Software Development Technology (April 2017), with a background in Communication and IT. Finally I have a user-centred approach when analysing user-needs, designing and developing.<br>
+					I have a passion for development, and I love creative, beautiful, user- and mobile friendly software.
+					I'm a graduate in Software Development Technology (April 2017), with a background in Communication and IT. Finally I have a user-centred approach when analysing user-needs, designing and developing.<br>
 				</p>
 				<p>
 					I'm speaking<br>
@@ -35,20 +35,19 @@
 
 <div class="row section-shadow m-b-4">
 	<h3 class="m-b-1 text-center"><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</h3>
-	<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-12" id="work-title">
-		<p><span class="lead">Digital Project Assistant</span><br>
-			<span class="text-muted">2013-2015 (2 &#189 years)</span>
-		</p>
-	</div>
-	<div class="col-md-8 col-xs-12 col-sm-8">		
-		<blockquote>
-	  	<p class="lead" id="ogilvy-red">OgilvyOne Denmark</p>
-	  	<span>
-	  	Working with strategy, design, development and maintenance of emails and websites for some of the biggest companies in Denmark (Direct Marketing). Primarily working with the CRM system Agillic Dialogue in order to automate flows between web, e-mail and text messages. In terms of web developing, I was using HTML, CSS, native JavaScript and jQuery for the front-end and Java (JSP/Servlets) for the back-end. 
-	  	Furthermore, I did quantitative analyses of different data from clients, in order to improve performance and value.</span>
-	  	<p><a target="_blank" class="btn btn-primary" href="http://ogilvy.dk">Company website</a></p>
-		</blockquote>
-		
+	<div ng-repeat="item in me.jobs">
+		<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-12" id="work-title">
+			<p><span class="lead">{{item.title}}</span><br>
+				<span class="text-muted">{{item.period}}</span>
+			</p>
+		</div>
+		<div class="col-md-8 col-xs-12 col-sm-8">		
+			<blockquote>
+			<p class="lead" id="{{item.companyColorId}}">{{item.company}}</p>
+			<span>{{item.description}}</span>
+			<p><a target="_blank" class="btn btn-primary" href="{{item.website}}">Company website</a></p>
+			</blockquote>
+		</div>
 	</div>
 </div>
 
@@ -74,7 +73,7 @@
 	<div class="row">
 		<div class="col-md-6 col-xs-12 col-sm-12" id="edu-div">
 				<p><b><span class="text-primary">Exchange programme in Paris, France
-				</span></b>
+				</span></b><br>
 				École pour l'informatique et les techniques avanceés (EPITA)<br>
 				<span class="text-muted">2015 - 2016</span></p>
 				<p>I completed the specialization semester at EPITA, with a wide variety of relevant courses ex. Advanced C, Advanced Database & Web development, XML Technologies, Advanced Java Programming, Android Initiation, iOS, .Net and C# Programming.</p>

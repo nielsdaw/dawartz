@@ -29,7 +29,7 @@ angular.module('dawartzApp')
   					 'The logic of the game everything else is developed by me.',
   	 	links: [
   	 		{
-  	 			a: 'https://www.dawartz.dk/bug-runner/',
+  	 			a: 'http://www.projects.dawartz.dk/bug-runner/',
   	 			text: 'Try to beat the highscore',
   	 			fa: 'fa-trophy'
   	 		},
@@ -101,7 +101,7 @@ angular.module('dawartzApp')
   					 'simple blog where you can create a user, write blog post and make comments.',
   	 	links: [
   	 		{
-  	 			a: 'https://www.dawartz.dk/blog/',
+  	 			a: 'http://www.projects.dawartz.dk/blog/',
   	 			text: 'Try the blog',
   	 			fa: 'fa-pencil-square-o'
   	 		}
@@ -116,12 +116,12 @@ angular.module('dawartzApp')
   					 'and which students are in which teams.',
   	 	links: [
   	 		{
-  	 			a: 'https://www.dawartz.dk/project1/',
+  	 			a: 'http://www.projects.dawartz.dk/project1/',
   	 			text: 'Try the application',
   	 			fa: 'fa-archive'
   	 		},
   	 		{
-  	 			a: 'https://github.com/ZuzanaLietavcova/Training-center-project',
+  	 			a: 'http://github.com/ZuzanaLietavcova/Training-center-project',
   	 			text: 'See code on Github',
   	 			fa: 'fa-github github-grey'
   	 		}
