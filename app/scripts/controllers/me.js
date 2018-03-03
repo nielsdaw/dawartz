@@ -56,6 +56,13 @@ angular.module('dawartzApp')
         }
     ];
 
+    this.educations = [
+        {
+
+        }
+
+    ];
+
     this.skills = [
     	'HTML5',
     	'CSS3',
@@ -68,6 +75,7 @@ angular.module('dawartzApp')
     	'php',
     	'Django',
         'SQL',
+        'MongoDb',
         'Git',
         'Bootstrap',
         'NPM',
@@ -75,15 +83,11 @@ angular.module('dawartzApp')
         'Gulp/Grunt',
         'User Centred Design',
         'C#',
-    ];
-
-    this.skillsOther = [
-    	'Android Studio (Java)',
-    	'xcode (objective C)',
-    	'C',
+        'dotnet',
+        'docker',
+        'C',
         'XML',
     	'Heroku',
         'LaTeX',
     ];
-
   });
